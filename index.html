@@ -27,26 +27,59 @@
     <meta name="theme-color" content="#fafafa" />
   </head>
   <body>
-    <!-- *** ESTRUCTURA SEMÁNTICA *** -->
-    <!-- Header (encabezado de la página, zona superior) -->
-    <header>
-      <!-- nav (el navegador de toda la web) -->
-      <nav>
-        <a href="" class="link1">link1</a>
-        <a href="" class="link2">link2</a>
-        <a href="" class="link3">link3</a>
-        <a href="" class="link4">link4</a>
-      </nav>
-    </header>
-    <!-- Main (centro de la página, zona central) -->
-    <main>
-      <!-- section y article (posibilidades dentro de main) -->
-    </main>
-    <!-- Footer (final de la página, zona inferior) -->
-    <footer>
-      <h4>&copy;Copyright</h4>
-    </footer>
-
+    <!-- GRID 16 columnas -->
+    <div class="container16 todo">
+      <!-- *** ESTRUCTURA SEMÁNTICA *** -->
+      <!-- Header (encabezado de la página, zona superior) -->
+      <header class="container16">
+        <!-- nav (el navegador de toda la web) -->
+        <h1>LOGOTIPO</h1>
+        <nav>
+          <a href="" class="link1">Proyectos</a>
+          <a href="" class="link2">Contactar</a>
+          <a href="" class="link3">Blog</a>
+        </nav>
+      </header>
+      <!-- Main (centro de la página, zona central) -->
+      <main class="container16">
+        <!-- section y article (posibilidades dentro de main) -->
+        <!-- BANNER -->
+        <section class="banner"></section>
+        <!-- ZONA CONTENIDO -->
+        <section class="contenido container16">
+          <!-- SLOGAN -->
+          <h3 class="contenido_texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+            alias!
+          </h3>
+          <!-- IMAGENES con TEXTO -->
+          <section class="contenido_imagenes container16">
+            <figure class="contenido_imagenes_imagen01">
+              <img class="contenido_imagenes_imagen01_img" src="img/desktop/img01.jpg" alt="" />
+              <figcaption class="contenido_imagenes_imagen01_texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </figcaption>
+            </figure>
+            <figure class="contenido_imagenes_imagen02">
+              <img class="contenido_imagenes_imagen02_img" src="img/desktop/img02.jpg" alt="" />
+              <figcaption class="contenido_imagenes_imagen02_texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </figcaption>
+            </figure>
+            <figure class="contenido_imagenes_imagen03">
+              <img class="contenido_imagenes_imagen03_img" src="img/desktop/img03.jpg" alt="" />
+              <figcaption class="contenido_imagenes_imagen03_texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </figcaption>
+            </figure>
+          </section>
+        </section>
+      </main>
+      <!-- Footer (final de la página, zona inferior) -->
+      <footer>
+        <h4>&copy;Copyright 2020</h4>
+      </footer>
+    </div>
     <!-- *** Google Analytics *** -->
     <script src="https://www.google-analytics.com/analytics.js" async></script>
   </body>
